@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.polybiastudios.photosweep.RegisterFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name_edit_text"
+        android:background="@drawable/curve_round_grn_lt"
+        android:hint="@string/first_name"
+        android:visibility="visible"
+        android:padding="5dp"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name_edit_text"
+        android:background="@drawable/curve_round_grn_lt"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="@string/last_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_edit_text"
+        android:background="@drawable/curve_round_grn_lt"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_edit_text"
+        android:background="@drawable/curve_round_grn_lt"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:hint="@string/password" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/verify_edit_text"
+            android:background="@drawable/curve_round_grn_lt"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:hint="@string/verify" />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_button"
+            android:text="@string/register"
+            android:background="@drawable/curve_round" />
+
+</LinearLayout>

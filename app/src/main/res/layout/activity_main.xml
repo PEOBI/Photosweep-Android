@@ -1,0 +1,154 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:id="@+id/bottom_nav_frame">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/dashboard_layout"
+                android:clickable="true">
+
+                <com.polybiastudios.photosweep.view.TintedImageButtonGry
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dashboard_button"
+                    android:src="@drawable/ic_add_a_photo_white_24dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:padding="5dp"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo"
+                    android:id="@+id/dashboard_label"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="5dp"
+                    android:clickable="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/print_queue_layout"
+                android:clickable="true">
+
+                <com.polybiastudios.photosweep.view.TintedImageButtonGry
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/print_queue_button"
+                    android:src="@drawable/ic_print_white_24dp"
+                    android:background="@android:color/transparent"
+                    android:padding="5dp"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/print_queue"
+                    android:id="@+id/print_queue_label"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="5dp"
+                    android:clickable="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/settings_layout"
+                android:clickable="true">
+
+                <com.polybiastudios.photosweep.view.TintedImageButtonGry
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/settings_button"
+                    android:src="@drawable/ic_settings_white_24dp"
+                    android:background="@android:color/transparent"
+                    android:padding="5dp"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings"
+                    android:id="@+id/settings_label"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="5dp"
+                    android:clickable="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/info_layout"
+                android:clickable="true">
+
+                <com.polybiastudios.photosweep.view.TintedImageButtonGry
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/info_button"
+                    android:src="@drawable/ic_info_white_24dp"
+                    android:background="@android:color/transparent"
+                    android:padding="5dp"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info"
+                    android:id="@+id/info_label"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="5dp"
+                    android:clickable="false"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/blur_image_view"
+            android:background="#66000000"
+            android:alpha="0"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/overlay_frame">
+    </FrameLayout>
+
+</merge>

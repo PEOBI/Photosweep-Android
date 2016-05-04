@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#96ce77</color>
+    <color name="colorPrimaryDark">#81c45c</color>
+    <color name="colorAccent">#81c45c</color>
+    <color name="ps_grey">#575757</color>
+    <color name="ps_green_lt">#bf72bf44</color>
+    <color name="ps_green_dk">#e672bf44</color>
+    <color name="ps_red">#ff4242</color>
+</resources>

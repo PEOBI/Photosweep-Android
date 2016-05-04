@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.polybiastudios.photosweep.LoginFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_edit_text"
+        android:background="@drawable/curve_round_grn_lt"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_edit_text"
+        android:background="@drawable/curve_round_grn_lt"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:hint="@string/password" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"
+        android:text="@string/login" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_button"
+        android:text="@string/no_account_signup" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_password_button"
+        android:text="@string/forgot_password" />
+
+</LinearLayout>

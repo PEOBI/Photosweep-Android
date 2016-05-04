@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.polybiastudios.photosweep.InfoFragment">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton7"
+            android:src="@drawable/ic_email_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback"
+            android:id="@+id/feedback_button"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:textColor="@color/ps_grey" />
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton"
+            android:src="@drawable/ic_chevron_right_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_people_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invite"
+            android:id="@+id/invite_button"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:textColor="@color/ps_grey" />
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/ic_chevron_right_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/ic_report_problem_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order"
+            android:id="@+id/problem_button"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:textColor="@color/ps_grey" />
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/ic_chevron_right_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/ic_help_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/faq"
+            android:id="@+id/faq_button"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:textColor="@color/ps_grey" />
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton4"
+            android:src="@drawable/ic_chevron_right_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/ic_monetization_on_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pns"
+            android:id="@+id/pricing_button"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:textColor="@color/ps_grey" />
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton5"
+            android:src="@drawable/ic_chevron_right_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            android:src="@drawable/ic_share_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:id="@+id/share_button"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:textColor="@color/ps_grey" />
+
+        <com.polybiastudios.photosweep.view.TintedImageViewGrn
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton6"
+            android:src="@drawable/ic_chevron_right_white_24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
